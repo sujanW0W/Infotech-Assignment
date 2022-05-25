@@ -1,0 +1,39 @@
+.about-outer{
+    margin-top: 70px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details h1{
+    margin: 0px;
+}
+
+.details h1, h1>span{
+    font-size: 48px;
+    font-weight: 600;
+    width: 435px;
+    text-align: center;
+}
+
+h1>span{
+    color : #091E80
+}
+
+.details p{
+    width: 700px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+}
+
+

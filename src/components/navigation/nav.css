@@ -1,0 +1,122 @@
+body{
+    position: relative;
+    width: 100%;    
+    background: #FFFFFF;
+}
+
+.nav-outer{
+    height: 157px;
+}
+
+.nav-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 82px; */
+    padding: 0px;
+    position: absolute;
+    /* width: 1360px;
+    height: 70px; */
+    width: 70%;
+    top:43px;
+    left: 13.75%;
+
+}
+
+.nav-clickables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 858px;
+    height: 41px; */
+    width: 65%;
+}
+
+.nav-clickables ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 521px;
+    height: 24px; */
+    width: 60%;
+    padding: 0px;
+}
+
+.nav-clickables ul li{
+    color: #333333;
+}
+
+.nav-clickables ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-clickables a:focus{
+    color: #091E80;
+    text-decoration: underline;
+    text-decoration-color: #627CF4;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 3px
+}
+
+
+.serv a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+ 
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border: 0.5px solid;
+}
+
+.serv>a:hover .dropdown{
+    display: block;
+}
+
+.login{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    cursor: pointer;
+    width: 104px;
+    height: 41px;
+
+    /* Primary/7 */
+    border: 2px solid #0C29B0;
+    filter: drop-shadow(-1px 2px 2px #091E80);
+    border-radius: 20px;
+
+    /* Primary/8 */
+    color: #091E80;
+}
+
+.login-div{
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.vector{
+    position: absolute;
+    right: 85px;
+    top: 25px;
+}
+

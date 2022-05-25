@@ -1,0 +1,48 @@
+.recent-outer{
+    padding: 64px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+    background-color: rgba(241, 243, 254, 1);
+}
+
+.recent-img{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.recent-outer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recent-header{
+    width: 790px;
+}
+
+.recent-header h1{
+    width: 570px;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.recent-header p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.recent-header button{
+    font-size: 16px;
+    width: 190px;
+    height: 60px;
+    background-color: #3254F1;
+    color: white;
+    border: 0px;
+    border-radius: 8px;
+}

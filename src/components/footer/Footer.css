@@ -1,0 +1,139 @@
+.footer-outer{
+    background-color: rgba(9, 30, 128, 1);
+    border: 1px solid #91A3F7;
+    border-radius: 10px;
+    padding: 40px 200px;
+    color: #FFFFFF;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-content .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-content .top-left{
+    width: 50%;
+    margin: 0px;
+}
+
+.top-left-content{
+    width: 55%;
+}
+
+.top-left h1{
+    margin: 0px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.top-left p{
+    
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.input-text{
+    background: rgb(255, 254, 254);
+    color: #4D4D4D;
+    width: 300px;
+    height: 50px;
+    padding: 0px 10px;
+    border: none;
+    outline: none;
+}
+
+.top-right{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-text::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+
+}
+
+.subs{  
+    box-sizing: border-box;
+    width: 110px;
+    height: 50px;
+    background-color: #3254F1;
+    border-radius: 0px 8px 8px 0px;
+    padding: 0px;
+    color: #FFFFFF;
+    border: none;
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-right: 160px;
+    margin-bottom: 20px;
+}
+
+.middle h2{
+    font-size: 24px;
+}
+
+.middle ul{
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.middle li{
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 160%;
+    color: #D6D6D6;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.copyright{
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.copyright p{
+    width: 50%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.dummy{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}

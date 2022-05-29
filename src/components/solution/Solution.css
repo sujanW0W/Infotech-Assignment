@@ -60,3 +60,46 @@ height: 130px;
     border-radius: 8px;
     cursor: pointer;
 }
+
+.extend{
+    padding: 20px;
+    display: none;
+}
+
+@media screen and (max-width : 800px) {
+
+    .solution-outer{
+        margin: 30px 10px;
+    }
+    .solution-outer h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 20px 20px 0px ;
+    }
+
+    .solution-outer h1 span{
+        font-size: 30px;
+    }
+
+    .solution-outer p{
+        padding: 20px;
+        text-align: center;
+    }
+
+    .solution-cards>section{
+        display: none;
+    }
+
+    .solution-cards>section:nth-child(1){
+        display: block;
+    }
+
+    .solution-cards section{
+        width: auto;
+        height: auto;
+    }
+
+    .extend{
+        display: block;
+    }
+}

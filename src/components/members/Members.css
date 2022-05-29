@@ -60,3 +60,50 @@
     border-radius: 8px;
     margin-top: 16px;
 }
+
+@media screen and (max-width:800px) {
+    .members-outer .services-top{
+        display: flex;
+    }
+
+    .members-outer h1{
+        font-size: 30px;
+    }
+
+    .members-outer h1 span {
+        font-size: 30px;
+    }
+
+    .members-second{
+        width: auto;
+    }
+
+    .members-second img{
+        width: 50%;
+    }
+
+    .members-second>img:nth-child(2){
+        left: 250px !important;
+        top: 80px !important;
+        width: 20%;
+    }
+
+    .members-second>img:nth-child(5){
+        width: 20%;
+        top: 80px !important;
+        right: 250px !important;
+
+    }
+
+    .members-second>img:nth-child(3),.members-second>img:nth-child(4){
+        display: none;
+    }
+
+    .members-third div{
+        width: auto;
+    }
+
+    .members-third-p3{
+        padding: 20px;
+    }
+}

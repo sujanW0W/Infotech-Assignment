@@ -12,11 +12,25 @@
     padding-top: 10px;
 }
 
+.clients-outer h2{
+    display: none;
+    font-size: 24px;
+}
+
+h2>span{
+    color: #091E80;
+}
+
 .clients-outer p{
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
     color: rgba(51, 51, 51, 1);
+}
+
+.clients-outer .phone-p{
+    display: none;
+    text-align: center;
 }
 
 .clients-outer .images{
@@ -28,4 +42,38 @@
 .clients-outer .images img{
     background-color: #d1d1d1;
     margin: 0px 40px;
+}
+
+@media screen and (max-width:800px) {
+    .clients-outer{
+
+        margin: 0px;
+        padding-top: 20px;
+
+    }
+
+    .clients-outer>.services-top{
+        display: flex;
+    }
+
+    .clients-outer h1{
+        display: none   ;
+    }
+
+    .clients-outer h2{
+        display: block;
+    }
+
+    .clients-outer p{
+        display: none;
+    }
+
+    .clients-outer .phone-p{
+        display: block;
+    }
+
+    .clients-outer .images img{
+        width: 100%;
+        margin: 0px;
+    }
 }

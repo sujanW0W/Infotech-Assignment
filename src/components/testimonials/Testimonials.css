@@ -1,7 +1,6 @@
 .testimonials-outer{
     padding: 64px;
     background-color: rgba(241, 243, 254, 1);
-
 }
 
 .testimonials-first{
@@ -47,4 +46,40 @@
 
 .testimonials-third h2{
     color: #091E80;
+}
+
+@media screen and (max-width:800px) {
+    .testimonials-outer .services-top{
+        display: flex;
+    }
+
+    .testimonials-outer{
+        padding: 64px 0px;
+    }
+
+    .testimonials-first h1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .testimonials-first h1 span{
+        font-size: 30px;
+        width: auto;
+    }
+
+    .testimonials-second div{
+        width: 100%;
+        padding:0px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .testimonials-second>div>img:nth-child(2),.testimonials-second>div>img:nth-child(3),.testimonials-second>div>img:nth-child(5),.testimonials-second>div>img:nth-child(6){
+        display: none;
+    }
+
+    .testimonials-third{
+        padding: 0px 10px;
+    }
 }

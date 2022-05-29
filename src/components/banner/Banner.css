@@ -80,3 +80,10 @@
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
 
     }
+
+
+    @media screen and (max-width: 800px){
+        .canvas{
+            display: none;
+        }
+    }

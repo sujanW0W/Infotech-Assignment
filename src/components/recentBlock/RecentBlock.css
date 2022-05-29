@@ -46,3 +46,48 @@
     border: 0px;
     border-radius: 8px;
 }
+
+@media screen and (max-width : 800px){
+    .recent-outer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recent-img{
+        justify-content: center;
+        width: auto;
+        margin: 5px;
+
+    }
+
+    .recent-img img{
+        max-width: 100%;
+    }
+
+    .recent-header{
+        width: auto;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .recent-header h1{
+        width: auto;
+        font-size: 28px;
+    }
+
+    .recent-header h1 span{
+        font-size: 28px;
+    }
+
+    .recent-header p{
+        text-align: center;
+    }
+
+    .recent-outer .services-top{
+        display: flex;
+    }
+
+    .recent-outer section{
+        align-items: center;
+    }
+}

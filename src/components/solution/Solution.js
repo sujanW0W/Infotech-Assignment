@@ -42,6 +42,10 @@ function Solution() {
             />
         </div>
 
+        <div className='extend'>
+            <img src="extend.svg" alt="" />
+        </div>
+
     </div>
   )
 }

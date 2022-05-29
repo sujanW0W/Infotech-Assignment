@@ -120,3 +120,63 @@ body{
     top: 25px;
 }
 
+.lines div{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px;
+}
+
+.lines{
+    
+    position: absolute;
+    left: -40px;
+    top: 18px;
+
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .nav-outer{
+        min-height: 10vh;
+    }
+
+    .nav-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-clickables ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 30vh;
+    }
+
+    .nav-clickables{
+        position: absolute;
+        left: -54px;
+        top: 70px;
+        background-color: rgb(255, 255, 255);
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+
+        opacity: 0;
+    }
+
+    .lines{
+        display: block;
+        cursor: pointer;
+    }
+
+    .show{
+        opacity: 1;
+    }
+
+}

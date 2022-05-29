@@ -1,14 +1,23 @@
 import React from 'react'
 import './nav.css'
 
-export default function Nav() {    
+export default function Nav() {  
+    
+    const [navLinesClick,setNavLinesClick] = React.useState(false);
+
+    const navLines =function () {
+        navLinesClick ? 
+            setNavLinesClick(false)
+        :
+            setNavLinesClick(true);
+    }
 
     return(
         <div className='nav-outer'>
             <div className = 'nav-head'>
                 <img src={process.env.PUBLIC_URL+'logo.svg'} alt="NA" />
             
-                <div className='nav-clickables'>
+                <div className={navLinesClick ? 'nav-clickables show' : 'nav-clickables'}>
                     <ul>
                         <li> <a href="#">Home</a> </li>
                         <li> <a href="#">About</a> </li>
@@ -31,6 +40,12 @@ export default function Nav() {
                             Login
                         </button>
                    </div>
+                </div>
+
+                <div className='lines' onClick={() => {navLines()}}>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
             </div>  
         </div>

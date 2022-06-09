@@ -1,2 +1,2 @@
 This is a React Project built by Sujan.
-This is just a fontend application made for PC.
+This is just a fontend application.

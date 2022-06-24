@@ -16,6 +16,7 @@ import Members from './components/members/Members';
 function App() {
   return (
     <div className="App">
+      
       <Nav />
       <Banner />
       <About />
